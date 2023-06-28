@@ -1,4 +1,4 @@
-﻿namespace myGitHub.cs
+﻿namespace superSimpleCalculator.cs
 {
     class Program
     {
