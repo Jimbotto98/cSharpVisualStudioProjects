@@ -19,7 +19,7 @@ do
     else if (usersGuess > randomNumber)
     {
         Console.WriteLine("Come on wiseguy, too high.");
-        //Im going for a NY type of AI response
+        //Im going for a New Yorker type of response
     }
     else
     {
