@@ -1,0 +1,22 @@
+using System;
+
+// this code will demonstrate my knowledge of:
+// strings, int, & floats
+public class Tutorial
+{
+   public static void Main()
+   {
+      // i was instructed to write my code here
+
+      // i made changes based off a show i really liked
+      string movie = "Aqua Teen Hunger Force Movie";
+      int movieReleaseYear = 2007;
+      float movieTicketPrice = 6.80f;
+
+      // test code
+      Console.WriteLine("movie: " + movie);
+      Console.WriteLine("movieReleaseYear: " + movieReleaseYear);
+      Console.WriteLine("movieTicketPrice: " + movieTicketPrice);
+   }
+}
+// this is a simple project but I am putting EVERYTHING I've learned on GitHub
