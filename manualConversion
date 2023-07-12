@@ -1,0 +1,11 @@
+using System;
+public class Conversion
+//simple conversion code
+//change the code to show my age
+{
+    public static void Main()
+    {
+        double myAge = 25.0;
+        Console.WriteLine(Convert.ToInt32(myAge));
+    }
+}
