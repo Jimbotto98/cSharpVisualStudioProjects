@@ -1,0 +1,11 @@
+using System;
+//first project ever
+public class Hello
+{
+//didnt know what i was doing then, still dont know now lol 
+    public static void Main()
+    {
+        System.Console.WriteLine("Hello, World!");
+    }
+}
+//just kidding.. babysteps
