@@ -1,0 +1,17 @@
+using System;
+
+//learning about arrays
+
+public class ATHF // ATHF = Aqua Teen Hunger Force
+{ 
+   public static void Main()
+   {
+      // my input
+      string[] athf = new string[] { "Master Shake", "FryLock", "MeatWad" };
+
+      // testing it out 
+      Console.WriteLine(athf[0]);
+      Console.WriteLine(athf[1]);
+      Console.WriteLine(athf[2]);
+   }
+}
