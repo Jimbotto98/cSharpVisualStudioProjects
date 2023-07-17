@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+
+public class Hello
+{
+    public static void Main()
+    {
+        //odd numbers from 1-10
+//list with integers
+        List<int> oddNumbers = new List<int>();
+       
+        oddNumbers.Add(1);
+        oddNumbers.Add(3);
+        oddNumbers.Add(5);
+        oddNumbers.Add(7);
+        oddNumbers.Add(9);
+
+        //Print all the numbers out
+
+        Console.WriteLine("Odd numbers from 1 - 10");
+
+        Console.WriteLine(oddNumbers[0]);
+        Console.WriteLine(oddNumbers[1]);
+        Console.WriteLine(oddNumbers[2]);
+        Console.WriteLine(oddNumbers[3]);
+        Console.WriteLine(oddNumbers[4]);
+
+//list with strings
+     List<string> languagesISpeak = new List<string>();
+        
+        languagesISpeak.Add("English");
+        languagesISpeak.Add("Spanish");
+        languagesISpeak.Add("Italian");
+        languagesISpeak.Add("Portuguese");
+        languagesISpeak.Add("French");
+        
+        
+        Console.WriteLine("This is the list of languages I can speak");
+        Console.WriteLine("English");
+        Console.WriteLine("Spanish");
+        Console.WriteLine("Italian");
+        Console.WriteLine("Portuguese");
+        Console.WriteLine("French");
+    }
+}
