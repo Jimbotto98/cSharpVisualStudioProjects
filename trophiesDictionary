@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+
+public class Hello
+{
+    public static void Main()
+    {
+        Dictionary<string, int> trophies = new Dictionary<string, int>();
+        trophies["liverPool"] = 6;
+        trophies["interMilan"] = 3;
+        trophies["chelsea"] = 2;
+
+        
+        Console.WriteLine("Who have won 6 Champions League Titles?");
+       
+        Console.WriteLine(trophies["liverPool"]);
+        Console.WriteLine(trophies["interMilan"]);
+        Console.WriteLine(trophies["chelsea"]);
+
+    //all great teams, but Liverpool is the best of course
+        
+        Console.WriteLine("Liverpool of course, YNWA");
+      
+
+    }
+}
